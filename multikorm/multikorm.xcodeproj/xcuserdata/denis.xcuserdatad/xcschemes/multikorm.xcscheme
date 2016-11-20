@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "92492DE41DC29A0E009D28D9"
+               BlueprintIdentifier = "9242F9CF1DC5349F0008552F"
                BuildableName = "multikorm.app"
                BlueprintName = "multikorm"
                ReferencedContainer = "container:multikorm.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "92492DE41DC29A0E009D28D9"
+            BlueprintIdentifier = "9242F9CF1DC5349F0008552F"
             BuildableName = "multikorm.app"
             BlueprintName = "multikorm"
             ReferencedContainer = "container:multikorm.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "92492DE41DC29A0E009D28D9"
+            BlueprintIdentifier = "9242F9CF1DC5349F0008552F"
             BuildableName = "multikorm.app"
             BlueprintName = "multikorm"
             ReferencedContainer = "container:multikorm.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "92492DE41DC29A0E009D28D9"
+            BlueprintIdentifier = "9242F9CF1DC5349F0008552F"
             BuildableName = "multikorm.app"
             BlueprintName = "multikorm"
             ReferencedContainer = "container:multikorm.xcodeproj">
