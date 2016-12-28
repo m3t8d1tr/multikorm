@@ -14,10 +14,22 @@
 		9242F9DE1DC5349F0008552F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9242F9DD1DC5349F0008552F /* Assets.xcassets */; };
 		9242F9E11DC5349F0008552F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9242F9DF1DC5349F0008552F /* LaunchScreen.storyboard */; };
 		9242F9EB1DC535370008552F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9242F9EA1DC535370008552F /* MenuViewController.swift */; };
-		92D900EF1DCE6D6000A04E5D /* CategoryPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D900EE1DCE6D6000A04E5D /* CategoryPageVC.swift */; };
+		925FDD981DF0A73B00763F2C /* categoryJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 925FDD971DF0A73B00763F2C /* categoryJSON.json */; };
+		92991E291DE4A6AA0083A3E2 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92991E281DE4A6AA0083A3E2 /* CategoryTableViewController.swift */; };
+		92991E2F1DE4D7710083A3E2 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92991E2E1DE4D7710083A3E2 /* NewsTableViewController.swift */; };
+		92991E311DE4D7FC0083A3E2 /* SpecialCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92991E301DE4D7FC0083A3E2 /* SpecialCollectionViewController.swift */; };
+		92991E331DE4DA0B0083A3E2 /* ShippingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92991E321DE4DA0B0083A3E2 /* ShippingViewController.swift */; };
+		92991E351DE4DA150083A3E2 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92991E341DE4DA150083A3E2 /* PaymentViewController.swift */; };
+		92991E371DE4DA1E0083A3E2 /* CabinetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92991E361DE4DA1E0083A3E2 /* CabinetViewController.swift */; };
+		92991E3D1DE4E21E0083A3E2 /* slide2.png in Resources */ = {isa = PBXBuildFile; fileRef = 92991E3A1DE4E21E0083A3E2 /* slide2.png */; };
+		92991E3E1DE4E21E0083A3E2 /* slide3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92991E3B1DE4E21E0083A3E2 /* slide3.jpg */; };
+		92991E3F1DE4E21E0083A3E2 /* slide1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92991E3C1DE4E21E0083A3E2 /* slide1.jpg */; };
+		AAEDF25488F04EDB71BD7F8D /* Pods_multikorm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B137C50F12972299F22909 /* Pods_multikorm.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		527A905A29A93D83FEDC06CF /* Pods-multikorm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multikorm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-multikorm/Pods-multikorm.debug.xcconfig"; sourceTree = "<group>"; };
+		89A91352EE24248F73EFF8C1 /* Pods-multikorm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multikorm.release.xcconfig"; path = "Pods/Target Support Files/Pods-multikorm/Pods-multikorm.release.xcconfig"; sourceTree = "<group>"; };
 		9242F9D01DC5349F0008552F /* multikorm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multikorm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9242F9D31DC5349F0008552F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9242F9D51DC5349F0008552F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,7 +39,17 @@
 		9242F9E01DC5349F0008552F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9242F9E21DC5349F0008552F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9242F9EA1DC535370008552F /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		92D900EE1DCE6D6000A04E5D /* CategoryPageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryPageVC.swift; sourceTree = "<group>"; };
+		925FDD971DF0A73B00763F2C /* categoryJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = categoryJSON.json; sourceTree = "<group>"; };
+		92991E281DE4A6AA0083A3E2 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		92991E2E1DE4D7710083A3E2 /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		92991E301DE4D7FC0083A3E2 /* SpecialCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialCollectionViewController.swift; sourceTree = "<group>"; };
+		92991E321DE4DA0B0083A3E2 /* ShippingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShippingViewController.swift; sourceTree = "<group>"; };
+		92991E341DE4DA150083A3E2 /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		92991E361DE4DA1E0083A3E2 /* CabinetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CabinetViewController.swift; sourceTree = "<group>"; };
+		92991E3A1DE4E21E0083A3E2 /* slide2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slide2.png; sourceTree = "<group>"; };
+		92991E3B1DE4E21E0083A3E2 /* slide3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide3.jpg; sourceTree = "<group>"; };
+		92991E3C1DE4E21E0083A3E2 /* slide1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slide1.jpg; sourceTree = "<group>"; };
+		F3B137C50F12972299F22909 /* Pods_multikorm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_multikorm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +57,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAEDF25488F04EDB71BD7F8D /* Pods_multikorm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DDBED67398C28F0D3620A09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				527A905A29A93D83FEDC06CF /* Pods-multikorm.debug.xcconfig */,
+				89A91352EE24248F73EFF8C1 /* Pods-multikorm.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9242F9C71DC5349F0008552F = {
 			isa = PBXGroup;
 			children = (
 				9242F9D21DC5349F0008552F /* multikorm */,
 				9242F9D11DC5349F0008552F /* Products */,
+				4DDBED67398C28F0D3620A09 /* Pods */,
+				A7B842A54BEF095B906E8B68 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,17 +94,50 @@
 		9242F9D21DC5349F0008552F /* multikorm */ = {
 			isa = PBXGroup;
 			children = (
-				9242F9D71DC5349F0008552F /* Main.storyboard */,
-				9242F9DF1DC5349F0008552F /* LaunchScreen.storyboard */,
+				92991E391DE4E1FE0083A3E2 /* slide */,
+				92991E381DE4DA280083A3E2 /* ViewController */,
 				9242F9D31DC5349F0008552F /* AppDelegate.swift */,
 				9242F9D51DC5349F0008552F /* ViewController.swift */,
 				9242F9EA1DC535370008552F /* MenuViewController.swift */,
-				92D900EE1DCE6D6000A04E5D /* CategoryPageVC.swift */,
 				9242F9DD1DC5349F0008552F /* Assets.xcassets */,
 				9242F9E21DC5349F0008552F /* Info.plist */,
 				9242F9DA1DC5349F0008552F /* multikorm.xcdatamodeld */,
+				9242F9DF1DC5349F0008552F /* LaunchScreen.storyboard */,
+				9242F9D71DC5349F0008552F /* Main.storyboard */,
+				925FDD971DF0A73B00763F2C /* categoryJSON.json */,
 			);
 			path = multikorm;
+			sourceTree = "<group>";
+		};
+		92991E381DE4DA280083A3E2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				92991E2E1DE4D7710083A3E2 /* NewsTableViewController.swift */,
+				92991E321DE4DA0B0083A3E2 /* ShippingViewController.swift */,
+				92991E341DE4DA150083A3E2 /* PaymentViewController.swift */,
+				92991E361DE4DA1E0083A3E2 /* CabinetViewController.swift */,
+				92991E301DE4D7FC0083A3E2 /* SpecialCollectionViewController.swift */,
+				92991E281DE4A6AA0083A3E2 /* CategoryTableViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		92991E391DE4E1FE0083A3E2 /* slide */ = {
+			isa = PBXGroup;
+			children = (
+				92991E3A1DE4E21E0083A3E2 /* slide2.png */,
+				92991E3B1DE4E21E0083A3E2 /* slide3.jpg */,
+				92991E3C1DE4E21E0083A3E2 /* slide1.jpg */,
+			);
+			name = slide;
+			sourceTree = "<group>";
+		};
+		A7B842A54BEF095B906E8B68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3B137C50F12972299F22909 /* Pods_multikorm.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,9 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9242F9E51DC5349F0008552F /* Build configuration list for PBXNativeTarget "multikorm" */;
 			buildPhases = (
+				48EF6448F77ECE9921512FD6 /* [CP] Check Pods Manifest.lock */,
 				9242F9CC1DC5349F0008552F /* Sources */,
 				9242F9CD1DC5349F0008552F /* Frameworks */,
 				9242F9CE1DC5349F0008552F /* Resources */,
+				410505A6D348E9FE788D2335 /* [CP] Embed Pods Frameworks */,
+				ECC6CE29A81C9729B3682654 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -100,7 +170,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = DenisTkachev;
 				TargetAttributes = {
 					9242F9CF1DC5349F0008552F = {
@@ -132,24 +202,81 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92991E3E1DE4E21E0083A3E2 /* slide3.jpg in Resources */,
+				92991E3D1DE4E21E0083A3E2 /* slide2.png in Resources */,
 				9242F9E11DC5349F0008552F /* LaunchScreen.storyboard in Resources */,
 				9242F9DE1DC5349F0008552F /* Assets.xcassets in Resources */,
 				9242F9D91DC5349F0008552F /* Main.storyboard in Resources */,
+				92991E3F1DE4E21E0083A3E2 /* slide1.jpg in Resources */,
+				925FDD981DF0A73B00763F2C /* categoryJSON.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		410505A6D348E9FE788D2335 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-multikorm/Pods-multikorm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48EF6448F77ECE9921512FD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ECC6CE29A81C9729B3682654 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-multikorm/Pods-multikorm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9242F9CC1DC5349F0008552F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92991E331DE4DA0B0083A3E2 /* ShippingViewController.swift in Sources */,
 				9242F9D61DC5349F0008552F /* ViewController.swift in Sources */,
 				9242F9D41DC5349F0008552F /* AppDelegate.swift in Sources */,
+				92991E2F1DE4D7710083A3E2 /* NewsTableViewController.swift in Sources */,
+				92991E311DE4D7FC0083A3E2 /* SpecialCollectionViewController.swift in Sources */,
+				92991E371DE4DA1E0083A3E2 /* CabinetViewController.swift in Sources */,
 				9242F9DC1DC5349F0008552F /* multikorm.xcdatamodeld in Sources */,
 				9242F9EB1DC535370008552F /* MenuViewController.swift in Sources */,
-				92D900EF1DCE6D6000A04E5D /* CategoryPageVC.swift in Sources */,
+				92991E351DE4DA150083A3E2 /* PaymentViewController.swift in Sources */,
+				92991E291DE4A6AA0083A3E2 /* CategoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +320,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -243,6 +371,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -270,6 +399,7 @@
 		};
 		9242F9E61DC5349F0008552F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 527A905A29A93D83FEDC06CF /* Pods-multikorm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = multikorm/Info.plist;
@@ -282,6 +412,7 @@
 		};
 		9242F9E71DC5349F0008552F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89A91352EE24248F73EFF8C1 /* Pods-multikorm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = multikorm/Info.plist;

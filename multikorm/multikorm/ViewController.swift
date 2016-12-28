@@ -7,9 +7,60 @@
 //
 
 import UIKit
+import SwiftyJSON
+//расширение для превращения массива в словарь
+extension Array  {
+    var indexedDictionary: [Int: Element] {
+        var result: [Int: Element] = [:]
+        enumerated().forEach({ result[$0.offset] = $0.element })
+        return result
+    }
+}
 
-class ViewController: UIViewController, MenuViewControllerDelegate {
-
+class ViewController: UIViewController,  MenuViewControllerDelegate {
+    
+    @IBOutlet weak var slideImageView: UIImageView!
+    
+    //структура для хранения и обработки всех раcпарсенных данных из JSON
+    struct Catalog {
+        var rootCategory: String = "Category"
+        var name: [String] = []
+        var id : [Int] = []
+        var parent_id: [Int] = []
+        var frontend_name: [String] = []
+        var numberOfCategory: Int = 0
+        var numberOfRootCategory: Int = 0
+        var idDict: [Int : Int] = [:]
+        var NameDict: [Int : String] = [:]
+        var parentIdDict: [Int : Int] = [:]
+        }
+    
+    public var catalog = Catalog()
+    func getJSONData() -> (numberOfCategory : Int, numberOfRootCategory : Int) {
+        
+        let path: String = Bundle.main.path(forResource: "categoryJSON", ofType: "json") as String!
+        let jsonData = (try? Data(contentsOf: URL(fileURLWithPath: path))) as Data!
+        let readableJSON = JSON(data: jsonData!, options: .mutableContainers, error: nil)
+        let numberOfCategory = readableJSON[catalog.rootCategory].count
+        
+        for i in 0..<numberOfCategory {
+            catalog.id.append(readableJSON[catalog.rootCategory]["\(i)"]["id"].int!)
+            catalog.name.append(readableJSON[catalog.rootCategory]["\(i)"]["name"].string!)
+            catalog.parent_id.append(readableJSON[catalog.rootCategory]["\(i)"]["parent_id"].int!)
+            if catalog.parent_id[i] == 0 //считаем сколько корневых категорий
+            {
+                catalog.numberOfRootCategory += 1
+            }
+        }
+        // превращаем массив в словарь с ключами
+        catalog.idDict = catalog.id.indexedDictionary
+        catalog.NameDict = catalog.name.indexedDictionary
+        catalog.parentIdDict = catalog.parent_id.indexedDictionary
+        return (numberOfCategory, catalog.numberOfRootCategory) //возвращаем кол-во категорий
+    }
+    
+    
+    
     //область для затемнения второй части экрана при активации меню
     var blackMaskView = UIView(frame: CGRect.zero)
     
@@ -24,7 +75,22 @@ class ViewController: UIViewController, MenuViewControllerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // получаем кол-во категорий и выполняем функцию
+        let www = getJSONData()
+        catalog.numberOfCategory = www.numberOfCategory
+        catalog.numberOfRootCategory = www.numberOfRootCategory
+        //скрываем навигационное меню
+        navigationController?.isNavigationBarHidden = true
+        
+        // подключаем картинки в слайдер
+        slideImageView.animationImages = [
+            UIImage(named: "slide1.jpg")!,
+            UIImage(named: "slide2.png")!,
+            UIImage(named: "slide3.jpg")!
+        ]
+        slideImageView.animationDuration = 5
+        slideImageView.startAnimating()
         
         //добавляем меню на вьюшку
         addChildViewController(menuViewController)
@@ -41,13 +107,16 @@ class ViewController: UIViewController, MenuViewControllerDelegate {
         let widthConstraint = NSLayoutConstraint(item: menuViewController.view, attribute: NSLayoutAttribute.width, relatedBy: NSLayoutRelation.equal, toItem: nil, attribute: NSLayoutAttribute.notAnAttribute, multiplier: 1, constant: 250)
    
         menuLeftconstraint = NSLayoutConstraint(item: menuViewController.view, attribute: NSLayoutAttribute.left, relatedBy: NSLayoutRelation.equal, toItem: view, attribute: NSLayoutAttribute.left, multiplier: 1, constant: -widthConstraint.constant)
-        //вот тут не как у него в видео, topContraint -> у него topConstraint
+        
         view.addConstraints([topContraint, menuLeftconstraint!, bottomContraint, widthConstraint])
         
         //toogleMenu()
+        
+    
     }
     //переключатель показа меню
      func toogleMenu() {
+        
         isShowingMenu = !isShowingMenu
         if(isShowingMenu) {
             //hide menu
@@ -77,7 +146,7 @@ class ViewController: UIViewController, MenuViewControllerDelegate {
             
             UIView.animate(withDuration: 0.5, delay: 0.0, options: UIViewAnimationOptions.curveEaseInOut, animations: { () -> Void in self.view.layoutIfNeeded()
                 self.blackMaskView.alpha = 0.5}, completion: { (completed) -> Void in
-                let tapGesture = UITapGestureRecognizer(target: self, action: "tapGestureRecognized")
+                let tapGesture = UITapGestureRecognizer(target: self, action: #selector(ViewController.tapGestureRecognized))
                 self.blackMaskView.addGestureRecognizer(tapGesture)})
             
             menuViewController.view.isHidden = false
@@ -85,6 +154,8 @@ class ViewController: UIViewController, MenuViewControllerDelegate {
             UIView.animate(withDuration: 0.5, delay: 0.0, usingSpringWithDamping: 0.9, initialSpringVelocity: 0.5, options: UIViewAnimationOptions.curveEaseInOut, animations: { () -> Void in self.view.layoutIfNeeded()}, completion: {(completed) -> Void in self.menuViewController.view.isHidden = false})
             
         }
+        // сохраняем массив со всеми данными в переменной контроллера категорий (он выезжает)
+        menuViewController.menuCatalog = catalog
     }
     
     func tapGestureRecognized() {
@@ -98,36 +169,16 @@ class ViewController: UIViewController, MenuViewControllerDelegate {
     @IBAction func menuButtonDidTouch(_ sender: AnyObject) {
         toogleMenu()
     }
+    // передаём данные в следующий контроллер
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        // !указываем на какой контроллер переходим!
+        var DestViewController : MenuViewController = segue.destination as! MenuViewController
+        // получаем индекс выбранного элемента
+        //что передаём?
+        //передаём целую структуру с данными
+        //DestViewController.menuCatalog = catalog
+    }
     
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-
 }
 

@@ -1,0 +1,1840 @@
+{
+    "Category": {
+        "0": {
+            "id": 473,
+            "parent_id": 0,
+            "name": "Собаки",
+            "frontend_name": ""
+        },
+        "1": {
+            "id": 474,
+            "parent_id": 0,
+            "name": "Кошки",
+            "frontend_name": ""
+        },
+        "2": {
+            "id": 475,
+            "parent_id": 0,
+            "name": "Грызуны",
+            "frontend_name": "Товары для грызунов"
+        },
+        "3": {
+            "id": 476,
+            "parent_id": 0,
+            "name": "Птицы",
+            "frontend_name": ""
+        },
+        "4": {
+            "id": 477,
+            "parent_id": 0,
+            "name": "Рыбки",
+            "frontend_name": ""
+        },
+        "5": {
+            "id": 487,
+            "parent_id": 706,
+            "name": "Лежаки",
+            "frontend_name": ""
+        },
+        "6": {
+            "id": 508,
+            "parent_id": 729,
+            "name": "Расчески, щетки, пуходерки",
+            "frontend_name": ""
+        },
+        "7": {
+            "id": 513,
+            "parent_id": 811,
+            "name": "Сопутствующие товары для переносок",
+            "frontend_name": ""
+        },
+        "8": {
+            "id": 521,
+            "parent_id": 475,
+            "name": "Сено",
+            "frontend_name": "Сено для грызунов"
+        },
+        "9": {
+            "id": 522,
+            "parent_id": 710,
+            "name": "Рулетки",
+            "frontend_name": ""
+        },
+        "10": {
+            "id": 705,
+            "parent_id": 473,
+            "name": "Игрушки",
+            "frontend_name": "Игрушки для собак"
+        },
+        "11": {
+            "id": 706,
+            "parent_id": 473,
+            "name": "Лежанки, пуфики, коврики, домики",
+            "frontend_name": ""
+        },
+        "12": {
+            "id": 707,
+            "parent_id": 811,
+            "name": "Вольеры",
+            "frontend_name": ""
+        },
+        "13": {
+            "id": 708,
+            "parent_id": 473,
+            "name": "Витамины и подкормки",
+            "frontend_name": "Подкормки и витамины для собак "
+        },
+        "14": {
+            "id": 709,
+            "parent_id": 811,
+            "name": "Сумки переноски",
+            "frontend_name": ""
+        },
+        "15": {
+            "id": 710,
+            "parent_id": 473,
+            "name": "Поводки, рулетки, амуниция",
+            "frontend_name": ""
+        },
+        "16": {
+            "id": 711,
+            "parent_id": 812,
+            "name": "Инструменты по уходу",
+            "frontend_name": ""
+        },
+        "17": {
+            "id": 713,
+            "parent_id": 812,
+            "name": "Косметика для собак",
+            "frontend_name": ""
+        },
+        "18": {
+            "id": 714,
+            "parent_id": 473,
+            "name": "Лакомства",
+            "frontend_name": "Лакомства для собак"
+        },
+        "19": {
+            "id": 715,
+            "parent_id": 810,
+            "name": "Пеленки и подгузники",
+            "frontend_name": ""
+        },
+        "20": {
+            "id": 716,
+            "parent_id": 473,
+            "name": "Консервы",
+            "frontend_name": "Консервы  для собак"
+        },
+        "21": {
+            "id": 717,
+            "parent_id": 473,
+            "name": "Сухой корм",
+            "frontend_name": "Сухой корм для собак "
+        },
+        "22": {
+            "id": 719,
+            "parent_id": 810,
+            "name": "Чистота в помещении",
+            "frontend_name": ""
+        },
+        "23": {
+            "id": 720,
+            "parent_id": 473,
+            "name": "Обувь",
+            "frontend_name": ""
+        },
+        "24": {
+            "id": 721,
+            "parent_id": 814,
+            "name": "Контейнеры для корма ",
+            "frontend_name": ""
+        },
+        "25": {
+            "id": 722,
+            "parent_id": 474,
+            "name": "Витамины и подкормки",
+            "frontend_name": ""
+        },
+        "26": {
+            "id": 723,
+            "parent_id": 474,
+            "name": "Клетки, транспортировка",
+            "frontend_name": ""
+        },
+        "27": {
+            "id": 724,
+            "parent_id": 474,
+            "name": "Гигиена",
+            "frontend_name": ""
+        },
+        "28": {
+            "id": 725,
+            "parent_id": 474,
+            "name": "Туалеты, лотки, совочки для кошек",
+            "frontend_name": ""
+        },
+        "29": {
+            "id": 728,
+            "parent_id": 474,
+            "name": "Игрушки",
+            "frontend_name": ""
+        },
+        "30": {
+            "id": 729,
+            "parent_id": 474,
+            "name": "Груминг, косметика",
+            "frontend_name": ""
+        },
+        "31": {
+            "id": 730,
+            "parent_id": 474,
+            "name": "Консервы",
+            "frontend_name": "Консервы для кошек"
+        },
+        "32": {
+            "id": 731,
+            "parent_id": 474,
+            "name": "Сухой корм",
+            "frontend_name": "Сухой корм для кошек"
+        },
+        "33": {
+            "id": 732,
+            "parent_id": 474,
+            "name": "Лакомства",
+            "frontend_name": "Лакомство для кошек"
+        },
+        "34": {
+            "id": 734,
+            "parent_id": 474,
+            "name": "Лежаки, домики, когтеточки для кошек",
+            "frontend_name": ""
+        },
+        "35": {
+            "id": 735,
+            "parent_id": 474,
+            "name": "Наполнители",
+            "frontend_name": ""
+        },
+        "36": {
+            "id": 736,
+            "parent_id": 474,
+            "name": "Миски, Контейнеры, автокормушки",
+            "frontend_name": ""
+        },
+        "37": {
+            "id": 737,
+            "parent_id": 475,
+            "name": "Клетки для грызунов",
+            "frontend_name": ""
+        },
+        "38": {
+            "id": 738,
+            "parent_id": 475,
+            "name": "Корм для грызунов",
+            "frontend_name": "Корма для грызунов"
+        },
+        "39": {
+            "id": 739,
+            "parent_id": 475,
+            "name": "Лакомства",
+            "frontend_name": "Лакомства для грызунов"
+        },
+        "40": {
+            "id": 740,
+            "parent_id": 475,
+            "name": "Гигиена, наполнители для клеток",
+            "frontend_name": "Опилки и наполнители для клеток грызунов"
+        },
+        "41": {
+            "id": 741,
+            "parent_id": 475,
+            "name": "Загоны",
+            "frontend_name": ""
+        },
+        "42": {
+            "id": 742,
+            "parent_id": 827,
+            "name": "Шампуни",
+            "frontend_name": ""
+        },
+        "43": {
+            "id": 744,
+            "parent_id": 476,
+            "name": "Корм для попугаев и канареек",
+            "frontend_name": ""
+        },
+        "44": {
+            "id": 754,
+            "parent_id": 477,
+            "name": "Декорации для аквариума",
+            "frontend_name": ""
+        },
+        "45": {
+            "id": 755,
+            "parent_id": 477,
+            "name": "Оборудование для аквариума",
+            "frontend_name": ""
+        },
+        "46": {
+            "id": 756,
+            "parent_id": 477,
+            "name": "Корм для рыб",
+            "frontend_name": ""
+        },
+        "47": {
+            "id": 757,
+            "parent_id": 477,
+            "name": "Средства поддержания аквариумной среды  ",
+            "frontend_name": ""
+        },
+        "48": {
+            "id": 758,
+            "parent_id": 477,
+            "name": "Лечебные препараты",
+            "frontend_name": ""
+        },
+        "49": {
+            "id": 759,
+            "parent_id": 477,
+            "name": "Тесты для воды",
+            "frontend_name": ""
+        },
+        "50": {
+            "id": 765,
+            "parent_id": 812,
+            "name": "Расчески, щетки",
+            "frontend_name": ""
+        },
+        "51": {
+            "id": 766,
+            "parent_id": 812,
+            "name": "Тримминг",
+            "frontend_name": ""
+        },
+        "52": {
+            "id": 767,
+            "parent_id": 812,
+            "name": "Грумерские столы",
+            "frontend_name": ""
+        },
+        "53": {
+            "id": 768,
+            "parent_id": 740,
+            "name": "Наполнители для клеток",
+            "frontend_name": ""
+        },
+        "54": {
+            "id": 770,
+            "parent_id": 810,
+            "name": "Средства приучения",
+            "frontend_name": ""
+        },
+        "55": {
+            "id": 771,
+            "parent_id": 755,
+            "name": "Фильтры",
+            "frontend_name": ""
+        },
+        "56": {
+            "id": 772,
+            "parent_id": 755,
+            "name": "Терморегуляторы",
+            "frontend_name": ""
+        },
+        "57": {
+            "id": 773,
+            "parent_id": 755,
+            "name": "Оборудование для аэрации",
+            "frontend_name": ""
+        },
+        "58": {
+            "id": 774,
+            "parent_id": 755,
+            "name": "Аксессуары для обслуживания аквариума",
+            "frontend_name": ""
+        },
+        "59": {
+            "id": 775,
+            "parent_id": 771,
+            "name": "Aquael",
+            "frontend_name": ""
+        },
+        "60": {
+            "id": 776,
+            "parent_id": 772,
+            "name": "Aquael терморегуляторы",
+            "frontend_name": ""
+        },
+        "61": {
+            "id": 777,
+            "parent_id": 772,
+            "name": "Термонагреватели sera",
+            "frontend_name": ""
+        },
+        "62": {
+            "id": 778,
+            "parent_id": 773,
+            "name": "Aquael Аэрация",
+            "frontend_name": ""
+        },
+        "63": {
+            "id": 779,
+            "parent_id": 774,
+            "name": "Sera аксессуары",
+            "frontend_name": ""
+        },
+        "64": {
+            "id": 780,
+            "parent_id": 774,
+            "name": "Tetra аксессуары",
+            "frontend_name": ""
+        },
+        "65": {
+            "id": 781,
+            "parent_id": 756,
+            "name": "Tetra корм",
+            "frontend_name": ""
+        },
+        "66": {
+            "id": 782,
+            "parent_id": 756,
+            "name": "Sera корм для рыб",
+            "frontend_name": ""
+        },
+        "67": {
+            "id": 794,
+            "parent_id": 757,
+            "name": "API",
+            "frontend_name": ""
+        },
+        "68": {
+            "id": 795,
+            "parent_id": 758,
+            "name": "API",
+            "frontend_name": ""
+        },
+        "69": {
+            "id": 796,
+            "parent_id": 759,
+            "name": "API",
+            "frontend_name": ""
+        },
+        "70": {
+            "id": 809,
+            "parent_id": 999,
+            "name": "Распродажа!",
+            "frontend_name": ""
+        },
+        "71": {
+            "id": 986,
+            "parent_id": 730,
+            "name": "Applaws",
+            "frontend_name": "Консервы для кошек Applaws"
+        },
+        "72": {
+            "id": 810,
+            "parent_id": 473,
+            "name": "Гигиена и пеленки",
+            "frontend_name": "пеленки, подгузники и средства гигиены для собак "
+        },
+        "73": {
+            "id": 811,
+            "parent_id": 473,
+            "name": "Вольеры, транспортировка",
+            "frontend_name": ""
+        },
+        "74": {
+            "id": 812,
+            "parent_id": 473,
+            "name": "Косметика, груминг",
+            "frontend_name": "Косметика и инструменты для груминга соба"
+        },
+        "75": {
+            "id": 814,
+            "parent_id": 473,
+            "name": "Миски, контейнеры, автокормушки",
+            "frontend_name": "Миски, контейнеры, автокормушки для собак"
+        },
+        "76": {
+            "id": 815,
+            "parent_id": 724,
+            "name": "Обработка помещений",
+            "frontend_name": ""
+        },
+        "77": {
+            "id": 816,
+            "parent_id": 724,
+            "name": "Средства приучения",
+            "frontend_name": ""
+        },
+        "78": {
+            "id": 817,
+            "parent_id": 811,
+            "name": "Клетки",
+            "frontend_name": ""
+        },
+        "79": {
+            "id": 818,
+            "parent_id": 811,
+            "name": "Переноски",
+            "frontend_name": ""
+        },
+        "80": {
+            "id": 819,
+            "parent_id": 729,
+            "name": "Косметика",
+            "frontend_name": ""
+        },
+        "81": {
+            "id": 820,
+            "parent_id": 729,
+            "name": "Тримминг",
+            "frontend_name": ""
+        },
+        "82": {
+            "id": 821,
+            "parent_id": 734,
+            "name": "Лежанки",
+            "frontend_name": ""
+        },
+        "83": {
+            "id": 822,
+            "parent_id": 734,
+            "name": "Домики",
+            "frontend_name": ""
+        },
+        "84": {
+            "id": 823,
+            "parent_id": 734,
+            "name": "Когтеточка",
+            "frontend_name": ""
+        },
+        "85": {
+            "id": 824,
+            "parent_id": 725,
+            "name": "Туалеты, лотки",
+            "frontend_name": ""
+        },
+        "86": {
+            "id": 825,
+            "parent_id": 725,
+            "name": "Совочки",
+            "frontend_name": ""
+        },
+        "87": {
+            "id": 826,
+            "parent_id": 725,
+            "name": "Пакетики",
+            "frontend_name": ""
+        },
+        "88": {
+            "id": 827,
+            "parent_id": 475,
+            "name": "Средства по уходу",
+            "frontend_name": ""
+        },
+        "89": {
+            "id": 828,
+            "parent_id": 814,
+            "name": "Миски ",
+            "frontend_name": ""
+        },
+        "90": {
+            "id": 829,
+            "parent_id": 736,
+            "name": "Контейнеры",
+            "frontend_name": ""
+        },
+        "91": {
+            "id": 830,
+            "parent_id": 736,
+            "name": "Миски",
+            "frontend_name": ""
+        },
+        "92": {
+            "id": 837,
+            "parent_id": 717,
+            "name": "1st Choice",
+            "frontend_name": "Фест Чойс для собак – третье поколение элитного канадского корма "
+        },
+        "93": {
+            "id": 838,
+            "parent_id": 731,
+            "name": "1st choice",
+            "frontend_name": "1st Choice сухой корм для кошек Фест чойс (Канада)"
+        },
+        "94": {
+            "id": 839,
+            "parent_id": 717,
+            "name": "Acana",
+            "frontend_name": "Акана сухой корм для собак, производтсво: Канада"
+        },
+        "95": {
+            "id": 840,
+            "parent_id": 717,
+            "name": "Advance",
+            "frontend_name": "Advance сухой корм для собак Эдванс (Испания)"
+        },
+        "96": {
+            "id": 841,
+            "parent_id": 717,
+            "name": "Anivital",
+            "frontend_name": "Anivital сухой корм для собак Анивитал (Германия)"
+        },
+        "97": {
+            "id": 842,
+            "parent_id": 717,
+            "name": "Applaws",
+            "frontend_name": "Applaws корм для собак Эппвейс (Великобритания)"
+        },
+        "98": {
+            "id": 843,
+            "parent_id": 717,
+            "name": "Arden Grange",
+            "frontend_name": "Arden grange сухой корм для собак Ардэн Грэньдж (Великобритания)"
+        },
+        "99": {
+            "id": 844,
+            "parent_id": 717,
+            "name": "Barking Heads",
+            "frontend_name": "Barking Heads сухой корм для собак (Англия)"
+        },
+        "100": {
+            "id": 845,
+            "parent_id": 717,
+            "name": "Belcando",
+            "frontend_name": "Belcando сухой корм для собак Белькандо (Бельканто) из Германии"
+        },
+        "101": {
+            "id": 846,
+            "parent_id": 717,
+            "name": "Best Choice ",
+            "frontend_name": "Best Choice сухой корм для собак Бест Чойс"
+        },
+        "102": {
+            "id": 847,
+            "parent_id": 717,
+            "name": "Blitz",
+            "frontend_name": "Blitz сухой корм для собак Блиц (Россия)"
+        },
+        "103": {
+            "id": 848,
+            "parent_id": 717,
+            "name": "Bosch ",
+            "frontend_name": "Bosch сухой корм для собак Бош (Германия)"
+        },
+        "104": {
+            "id": 935,
+            "parent_id": 738,
+            "name": "Bosch ",
+            "frontend_name": "Bosch сухой корм для грызунов"
+        },
+        "105": {
+            "id": 849,
+            "parent_id": 717,
+            "name": "Bozita",
+            "frontend_name": "Бозита сухой корм для собак Bozita (Щвеция)"
+        },
+        "106": {
+            "id": 850,
+            "parent_id": 717,
+            "name": "Brekkies Dog ",
+            "frontend_name": "Brekkies Dog сухойкорм для собак (Испания)"
+        },
+        "107": {
+            "id": 851,
+            "parent_id": 717,
+            "name": "Brit ",
+            "frontend_name": "Brit сухой корм для собак Брит (Чехия)"
+        },
+        "108": {
+            "id": 852,
+            "parent_id": 717,
+            "name": "Brocken",
+            "frontend_name": "Brocken сухой корм для собак премиум класса Броскен (Германия)"
+        },
+        "109": {
+            "id": 853,
+            "parent_id": 717,
+            "name": "Bewi Dog",
+            "frontend_name": "Bewi Dog сухой корм собак Беви Дог (Германия)"
+        },
+        "110": {
+            "id": 854,
+            "parent_id": 717,
+            "name": "Chicopee ",
+            "frontend_name": "Chicopee сухой корм для собак Чикоппи (Канада)"
+        },
+        "111": {
+            "id": 855,
+            "parent_id": 717,
+            "name": "Cibau ",
+            "frontend_name": "Cibau сухой корм для собак, щенков (Италия)"
+        },
+        "112": {
+            "id": 856,
+            "parent_id": 717,
+            "name": "Dado ",
+            "frontend_name": "Dado сухой корм для собак Дадо (Италия)"
+        },
+        "113": {
+            "id": 857,
+            "parent_id": 717,
+            "name": "Darling ",
+            "frontend_name": "Darling сухой корм для собак"
+        },
+        "114": {
+            "id": 858,
+            "parent_id": 717,
+            "name": "Dog Chow ",
+            "frontend_name": "Dog Chow сухой корм для собак"
+        },
+        "115": {
+            "id": 859,
+            "parent_id": 717,
+            "name": "Dr. Alders ",
+            "frontend_name": "Dr. Alders сухой корм для собак Доктор Алдерс (Германия)"
+        },
+        "116": {
+            "id": 860,
+            "parent_id": 717,
+            "name": "Dr. Clauder`s ",
+            "frontend_name": "Dr. Clauder`s сухой корм для собак Доктор Клаудер (Германия)"
+        },
+        "117": {
+            "id": 861,
+            "parent_id": 717,
+            "name": "Earthborn Holistic ",
+            "frontend_name": "Earthborn Holistic сухой корм для собак Эсборн Холистик (США)"
+        },
+        "118": {
+            "id": 862,
+            "parent_id": 717,
+            "name": "Eukanuba ",
+            "frontend_name": "Eukanuba сухой повседневный корм для собак Эукануба (Нидерланды)"
+        },
+        "119": {
+            "id": 863,
+            "parent_id": 717,
+            "name": "Eukanuba (вет. диета) ",
+            "frontend_name": "Eukanuba (вет. диета) сухой корм для собак вереринарные диеты (Нидерланды)"
+        },
+        "120": {
+            "id": 864,
+            "parent_id": 717,
+            "name": "Farmina ",
+            "frontend_name": "Farmina сухой корм для собак Фармина (Италия)"
+        },
+        "121": {
+            "id": 865,
+            "parent_id": 717,
+            "name": "Farmina Vet Life ",
+            "frontend_name": "Farmina Vet Life сухой корм ветеринарная диета для собак Фармина ветлайф (Италия)"
+        },
+        "122": {
+            "id": 866,
+            "parent_id": 717,
+            "name": "Gina ",
+            "frontend_name": "Gina сухой корм корм для собак Джина (США)"
+        },
+        "123": {
+            "id": 867,
+            "parent_id": 717,
+            "name": "GO NATURAL Holistic",
+            "frontend_name": "GO NATURAL Holistic сухой корм для собак Гоу натурал (Канада)"
+        },
+        "124": {
+            "id": 868,
+            "parent_id": 717,
+            "name": "Golden Eagle Holistic ",
+            "frontend_name": "Golden Eagle Holistic сухйо корм для собак Голден игл (Великобритания)"
+        },
+        "125": {
+            "id": 869,
+            "parent_id": 717,
+            "name": "Grandorf ",
+            "frontend_name": "Grandorf сухой корм для собак Грандорф (Бельгия)"
+        },
+        "126": {
+            "id": 870,
+            "parent_id": 717,
+            "name": "Happy Dog ",
+            "frontend_name": "Happy Dog сухой корм, хлопья для собак Хэппи дог (Германия)"
+        },
+        "127": {
+            "id": 871,
+            "parent_id": 717,
+            "name": "Hill`s ",
+            "frontend_name": "Hill`s сухой корм для собак Хиллс (Нидерланды)"
+        },
+        "128": {
+            "id": 872,
+            "parent_id": 717,
+            "name": "Inukshuk ",
+            "frontend_name": "Inukshuk сухой корм для собак Инукшук"
+        },
+        "129": {
+            "id": 873,
+            "parent_id": 717,
+            "name": "Josera ",
+            "frontend_name": "Josera сухой корм из германии для собак Джосера (Германия)"
+        },
+        "130": {
+            "id": 874,
+            "parent_id": 717,
+            "name": "NOW Natural holistic ",
+            "frontend_name": "NOW Natural holistic сухой корм для собак Нау натурал (Канада) "
+        },
+        "131": {
+            "id": 875,
+            "parent_id": 717,
+            "name": "NUTRA GOLD Holistic ",
+            "frontend_name": "NUTRA GOLD Holistic сухой корм для собак Нутра Голд"
+        },
+        "132": {
+            "id": 876,
+            "parent_id": 717,
+            "name": "NUTRA Nuggets ",
+            "frontend_name": "NUTRA Nuggets сухой корм для собак Нутра Нагетс"
+        },
+        "133": {
+            "id": 877,
+            "parent_id": 717,
+            "name": "Nutram ",
+            "frontend_name": "Nutram сухой корм для собак Нутрам (Канада)"
+        },
+        "134": {
+            "id": 878,
+            "parent_id": 717,
+            "name": "Orijen ",
+            "frontend_name": "Orijen сухой корм для собак Ориджен (канада)"
+        },
+        "135": {
+            "id": 879,
+            "parent_id": 717,
+            "name": "Pro Pac",
+            "frontend_name": "Pro Pac сухой корм для собак Про Пак (США)"
+        },
+        "136": {
+            "id": 880,
+            "parent_id": 717,
+            "name": "Pro Plan",
+            "frontend_name": "Pro Plan сухой корм для собак Про План (Франция)"
+        },
+        "137": {
+            "id": 881,
+            "parent_id": 717,
+            "name": "Pro Plan (Вет. диета)",
+            "frontend_name": "Pro Plan (Вет. диета) для собак (Франция)"
+        },
+        "138": {
+            "id": 882,
+            "parent_id": 717,
+            "name": "Pronature",
+            "frontend_name": "Pronature сухой корм для собак Пронатюр (Канада)"
+        },
+        "139": {
+            "id": 883,
+            "parent_id": 717,
+            "name": "Proseries ",
+            "frontend_name": "Proseries сухой корм для собак Просериес"
+        },
+        "140": {
+            "id": 884,
+            "parent_id": 717,
+            "name": "Red Oak",
+            "frontend_name": "Red Oak сухой корм для собак "
+        },
+        "141": {
+            "id": 885,
+            "parent_id": 717,
+            "name": "ROYAL CANIN",
+            "frontend_name": "Royal canin сухой корм для собак Роял Канин "
+        },
+        "142": {
+            "id": 886,
+            "parent_id": 717,
+            "name": "Royal Canin (Вет. диета)",
+            "frontend_name": "Royal Canin (Вет. диета) сухой корм для собак "
+        },
+        "143": {
+            "id": 887,
+            "parent_id": 717,
+            "name": "Savarra ",
+            "frontend_name": "Savarra сухой корм для собак "
+        },
+        "144": {
+            "id": 888,
+            "parent_id": 717,
+            "name": "Taste of the Wild ",
+            "frontend_name": "Taste of the Wild сухой корм для собак"
+        },
+        "145": {
+            "id": 889,
+            "parent_id": 717,
+            "name": "Оскар ",
+            "frontend_name": "Оскар сухой корм для собак (Россия)"
+        },
+        "146": {
+            "id": 890,
+            "parent_id": 717,
+            "name": "Трапеза ",
+            "frontend_name": "Трапеза сухой корм для собак "
+        },
+        "147": {
+            "id": 891,
+            "parent_id": 717,
+            "name": "Meradog ",
+            "frontend_name": "Meradog сухой корм для собак Мерадог (Германия)"
+        },
+        "148": {
+            "id": 892,
+            "parent_id": 717,
+            "name": "Sportmix ",
+            "frontend_name": "Sportmix сухой корм для собак Спортмикс (США)"
+        },
+        "149": {
+            "id": 893,
+            "parent_id": 717,
+            "name": "Almo Nature ",
+            "frontend_name": "Almo Nature корм для собак Альмо Натюр (Италия)"
+        },
+        "150": {
+            "id": 894,
+            "parent_id": 717,
+            "name": "Brocken ",
+            "frontend_name": "Brocken сухой корм для собак премиум класса Броскен (Германия)"
+        },
+        "151": {
+            "id": 895,
+            "parent_id": 717,
+            "name": "Monge ",
+            "frontend_name": "Monge сухой корм для собак Монж"
+        },
+        "152": {
+            "id": 896,
+            "parent_id": 716,
+            "name": "Applaws ",
+            "frontend_name": "Applaws консервы для собак "
+        },
+        "153": {
+            "id": 897,
+            "parent_id": 716,
+            "name": "Arden Grange ",
+            "frontend_name": "Arden grange консервы для собак Ардэн Грэньдж (Великобритания)"
+        },
+        "154": {
+            "id": 898,
+            "parent_id": 716,
+            "name": "Belcando ",
+            "frontend_name": "Belcando консервы для собак Белкандо (Германия)"
+        },
+        "155": {
+            "id": 899,
+            "parent_id": 716,
+            "name": "Berkley ",
+            "frontend_name": "Berkley консервы для собак Беркли (Германия)"
+        },
+        "156": {
+            "id": 900,
+            "parent_id": 716,
+            "name": "Best Dinner ",
+            "frontend_name": "Best Dinner консервы для собак Бест Динер"
+        },
+        "157": {
+            "id": 901,
+            "parent_id": 716,
+            "name": "Bozita ",
+            "frontend_name": "Bozita консервы для собак Бозита (Швеция)"
+        },
+        "158": {
+            "id": 902,
+            "parent_id": 716,
+            "name": "Brit ",
+            "frontend_name": "Brit консервы для собак Брит (Чехия)"
+        },
+        "159": {
+            "id": 903,
+            "parent_id": 716,
+            "name": "Dado",
+            "frontend_name": "Dado консервы для собак Дадо (Италия)"
+        },
+        "160": {
+            "id": 904,
+            "parent_id": 716,
+            "name": "Darling ",
+            "frontend_name": "Darling консервы для собак"
+        },
+        "161": {
+            "id": 905,
+            "parent_id": 716,
+            "name": "Dr. Alders ",
+            "frontend_name": "Dr. Alders консервы для собак Доктор Алдерс (Германия)"
+        },
+        "162": {
+            "id": 906,
+            "parent_id": 716,
+            "name": "Dr. Clauder`s",
+            "frontend_name": "Dr. Clauder`s консервы для собак Доктор Клаудер (Германия)"
+        },
+        "163": {
+            "id": 907,
+            "parent_id": 716,
+            "name": "Edel Dog ",
+            "frontend_name": "Edel Dog консервы для собак Эдель дог (Германия)"
+        },
+        "164": {
+            "id": 908,
+            "parent_id": 716,
+            "name": "Evanger’s ",
+            "frontend_name": "Evanger’s консервы для собак (США)"
+        },
+        "165": {
+            "id": 909,
+            "parent_id": 716,
+            "name": "Grandorf ",
+            "frontend_name": "Grandorf консервы для собак Грандорф"
+        },
+        "166": {
+            "id": 910,
+            "parent_id": 716,
+            "name": "Happy Dog ",
+            "frontend_name": "Happy Dog консервы для собак Хэппи дог (Германия)"
+        },
+        "167": {
+            "id": 911,
+            "parent_id": 731,
+            "name": "Acana",
+            "frontend_name": "Acana сухой корм для кошек Акана (Канада)"
+        },
+        "168": {
+            "id": 912,
+            "parent_id": 731,
+            "name": "Orijen",
+            "frontend_name": "Orijen сухой корм для кошек Ориджен (Канада)"
+        },
+        "169": {
+            "id": 913,
+            "parent_id": 731,
+            "name": "GO NATURAL Holistic",
+            "frontend_name": "GO NATURAL Holistic сухой корм для кошек Гоу натурал (Канада)"
+        },
+        "170": {
+            "id": 914,
+            "parent_id": 731,
+            "name": "Grandorf",
+            "frontend_name": "Грандорф сухой корм для кошек "
+        },
+        "171": {
+            "id": 915,
+            "parent_id": 810,
+            "name": "Лапомойки",
+            "frontend_name": ""
+        },
+        "172": {
+            "id": 916,
+            "parent_id": 714,
+            "name": "Happy Dog",
+            "frontend_name": "Хэппи дог лакомство для собак купить с доставкой по Москве и МО, доставка в регионы"
+        },
+        "173": {
+            "id": 917,
+            "parent_id": 714,
+            "name": "Edel Dog",
+            "frontend_name": "Эдель дог лакомство для собак купить с доставкой"
+        },
+        "174": {
+            "id": 918,
+            "parent_id": 730,
+            "name": "Edel cat",
+            "frontend_name": "Консервы для кошек Edel Cat"
+        },
+        "175": {
+            "id": 919,
+            "parent_id": 732,
+            "name": "Edel cat",
+            "frontend_name": "Лакомства для кошек Edel Cat"
+        },
+        "176": {
+            "id": 920,
+            "parent_id": 999,
+            "name": "Все от 200 до 5000",
+            "frontend_name": ""
+        },
+        "177": {
+            "id": 921,
+            "parent_id": 731,
+            "name": "Almo Nature",
+            "frontend_name": "Almo Nature сухой корм для кошек Алмо Натуре (Италия)"
+        },
+        "178": {
+            "id": 922,
+            "parent_id": 717,
+            "name": "Anivital",
+            "frontend_name": "Anivital сухой корм для собак (Германия)"
+        },
+        "179": {
+            "id": 923,
+            "parent_id": 708,
+            "name": "Anivital",
+            "frontend_name": "Anivital вытамины и подкомки для собак (Германия)"
+        },
+        "180": {
+            "id": 924,
+            "parent_id": 731,
+            "name": "Applaws",
+            "frontend_name": "Applaws корм для кошек"
+        },
+        "181": {
+            "id": 925,
+            "parent_id": 714,
+            "name": "Arden Grange",
+            "frontend_name": "Arden grange лакомство для собак Ардэн Грэньдж (Великобритания)"
+        },
+        "182": {
+            "id": 926,
+            "parent_id": 731,
+            "name": "Arden Grange",
+            "frontend_name": "Arden grange сухой корм для кошек Ардэн Грэньдж (Великобритания)"
+        },
+        "183": {
+            "id": 927,
+            "parent_id": 731,
+            "name": "Barking Heads",
+            "frontend_name": "Barking Heads сухой корм для кошек (Англия)"
+        },
+        "184": {
+            "id": 928,
+            "parent_id": 714,
+            "name": "Belcando ",
+            "frontend_name": "Belcando лакомство для собак Белькандо (Германия)"
+        },
+        "185": {
+            "id": 929,
+            "parent_id": 730,
+            "name": "Berkley ",
+            "frontend_name": "Berkley консервы для кошек Беркли (Германия)"
+        },
+        "186": {
+            "id": 930,
+            "parent_id": 731,
+            "name": "Best Choice",
+            "frontend_name": "Best Choice - сухие корма для кошек"
+        },
+        "187": {
+            "id": 931,
+            "parent_id": 730,
+            "name": "Best Dinner",
+            "frontend_name": "Best Dinner консервы для кошек"
+        },
+        "188": {
+            "id": 932,
+            "parent_id": 716,
+            "name": "Bewi Dog",
+            "frontend_name": "Bewi Dog консервы для собак Беви Дог (Германия)"
+        },
+        "189": {
+            "id": 933,
+            "parent_id": 731,
+            "name": "Blitz ",
+            "frontend_name": "Blitz сухой корм для кошек "
+        },
+        "190": {
+            "id": 934,
+            "parent_id": 714,
+            "name": "Bosch",
+            "frontend_name": "Bosch лакомство для собак Бош (Германия)"
+        },
+        "191": {
+            "id": 936,
+            "parent_id": 731,
+            "name": "Bozita",
+            "frontend_name": "Бозита сухой корм для кошек Bozita (Щвеция)"
+        },
+        "192": {
+            "id": 937,
+            "parent_id": 730,
+            "name": "Bozita",
+            "frontend_name": "Bozita консервы для кошек Бозита (Швеция)"
+        },
+        "193": {
+            "id": 938,
+            "parent_id": 714,
+            "name": "Brit",
+            "frontend_name": "Brit лакомство для собак Брит (Чехия)"
+        },
+        "194": {
+            "id": 939,
+            "parent_id": 731,
+            "name": "Brit",
+            "frontend_name": "Brit сухой корм для кошек Брит (Чехия)"
+        },
+        "195": {
+            "id": 940,
+            "parent_id": 730,
+            "name": "Brit",
+            "frontend_name": "Brit консервы для кошек Брит (Чехия)"
+        },
+        "196": {
+            "id": 944,
+            "parent_id": 730,
+            "name": "Dado",
+            "frontend_name": "Dado консервы для кошек Дадо (Италия)"
+        },
+        "197": {
+            "id": 945,
+            "parent_id": 714,
+            "name": "Daily",
+            "frontend_name": "Daily лакомства для собак "
+        },
+        "198": {
+            "id": 947,
+            "parent_id": 731,
+            "name": "Darling ",
+            "frontend_name": "Darling сухой корм для кошек"
+        },
+        "199": {
+            "id": 948,
+            "parent_id": 730,
+            "name": "Darling ",
+            "frontend_name": "Darling консервы для кошек"
+        },
+        "200": {
+            "id": 942,
+            "parent_id": 731,
+            "name": "Cimiao",
+            "frontend_name": "Cimiao сухой корм для кошек и котят"
+        },
+        "201": {
+            "id": 943,
+            "parent_id": 731,
+            "name": "Dado",
+            "frontend_name": "Dado сухой корм для кошек Дадо (Италия)"
+        },
+        "202": {
+            "id": 949,
+            "parent_id": 731,
+            "name": "Cat chow",
+            "frontend_name": "Cat chow сухо корм для кошек "
+        },
+        "203": {
+            "id": 952,
+            "parent_id": 731,
+            "name": "Dr. Clauder`s",
+            "frontend_name": "Dr. Clauder`s сухой корм для кошек "
+        },
+        "204": {
+            "id": 951,
+            "parent_id": 999,
+            "name": "Dr. Alders",
+            "frontend_name": "Dr. Alders лакомства для собак Доктор Алдерс (Германия)"
+        },
+        "205": {
+            "id": 953,
+            "parent_id": 730,
+            "name": "Dr. Clauder`s",
+            "frontend_name": "Dr. Clauder`s консервы для кошек"
+        },
+        "206": {
+            "id": 954,
+            "parent_id": 731,
+            "name": "Earthborn Holistic ",
+            "frontend_name": "Earthborn Holistic купить сухой корм для кошек"
+        },
+        "207": {
+            "id": 955,
+            "parent_id": 714,
+            "name": "Orijen",
+            "frontend_name": "Лакомства Ориджен (Orijen) для собак, Канада"
+        },
+        "208": {
+            "id": 956,
+            "parent_id": 732,
+            "name": "Orijen",
+            "frontend_name": "Лакомства Ориджен (Orijen) для кошек, Канада"
+        },
+        "209": {
+            "id": 957,
+            "parent_id": 731,
+            "name": "Pronature",
+            "frontend_name": "Pronature Сухой корм для кошек (Пронатюр)"
+        },
+        "210": {
+            "id": 958,
+            "parent_id": 716,
+            "name": "Gemon",
+            "frontend_name": "Gemon консервы для собак "
+        },
+        "211": {
+            "id": 960,
+            "parent_id": 717,
+            "name": "PROLAPA",
+            "frontend_name": "Prolapa сухой корм для собак "
+        },
+        "212": {
+            "id": 961,
+            "parent_id": 717,
+            "name": "Eminent",
+            "frontend_name": "Eminent сухой корм для собак "
+        },
+        "213": {
+            "id": 962,
+            "parent_id": 730,
+            "name": "Gemon",
+            "frontend_name": "Gemon консервы для кошек"
+        },
+        "214": {
+            "id": 963,
+            "parent_id": 731,
+            "name": "Eminent",
+            "frontend_name": "Eminent сухой корм для кошек"
+        },
+        "215": {
+            "id": 964,
+            "parent_id": 731,
+            "name": "Eukanuba",
+            "frontend_name": "Сухой корм для кошек Eukanuba (Нидерланды)"
+        },
+        "216": {
+            "id": 965,
+            "parent_id": 731,
+            "name": "Eukanuba (вет. диета) ",
+            "frontend_name": "Сухой корм для кошек Eukanuba Вет. Диета (Нидерланды)"
+        },
+        "217": {
+            "id": 966,
+            "parent_id": 731,
+            "name": "Farmina",
+            "frontend_name": "Сухой корм для кошек Farmina (Италия)"
+        },
+        "218": {
+            "id": 967,
+            "parent_id": 730,
+            "name": "Felix",
+            "frontend_name": "Консервы для кошек Felix"
+        },
+        "219": {
+            "id": 968,
+            "parent_id": 732,
+            "name": "Felix",
+            "frontend_name": "Лакомства для кошек Felix"
+        },
+        "220": {
+            "id": 969,
+            "parent_id": 731,
+            "name": "Friskies",
+            "frontend_name": "Сухой корм для кошек Friskies"
+        },
+        "221": {
+            "id": 970,
+            "parent_id": 730,
+            "name": "Friskies",
+            "frontend_name": "Консервы для кошек Friskies"
+        },
+        "222": {
+            "id": 971,
+            "parent_id": 730,
+            "name": "Dax",
+            "frontend_name": "Dax консервы для кошек"
+        },
+        "223": {
+            "id": 972,
+            "parent_id": 731,
+            "name": "Golden Eagle Holistic",
+            "frontend_name": "Сухой корм для кошек Golden Eagle Holistic (Великобритания)"
+        },
+        "224": {
+            "id": 973,
+            "parent_id": 731,
+            "name": "Happy Cat",
+            "frontend_name": "Сухой корм для кошек Happy Cat (Хэппи Кэт)"
+        },
+        "225": {
+            "id": 974,
+            "parent_id": 732,
+            "name": "Happy Cat",
+            "frontend_name": "Лакомства для кошек Happy Cat (Хэппи Кэт)"
+        },
+        "226": {
+            "id": 975,
+            "parent_id": 730,
+            "name": "Happy Cat",
+            "frontend_name": "Консервы для кошек Happy Cat (Хэппи Кэт)"
+        },
+        "227": {
+            "id": 990,
+            "parent_id": 716,
+            "name": "Nutram",
+            "frontend_name": "Консервы для собак Nutram"
+        },
+        "228": {
+            "id": 989,
+            "parent_id": 717,
+            "name": "Hill's (Вет.диета)",
+            "frontend_name": "Сухой корм для собак Hill's Вет. диета"
+        },
+        "229": {
+            "id": 977,
+            "parent_id": 716,
+            "name": "Hill's (Вет. Диета)",
+            "frontend_name": "Консервы для собак Hill's (Вет. Диета)"
+        },
+        "230": {
+            "id": 978,
+            "parent_id": 731,
+            "name": "Hill`s (Вет. Диета)",
+            "frontend_name": "Сухой корм для кошек Hill's (Вет. Диета)"
+        },
+        "231": {
+            "id": 979,
+            "parent_id": 730,
+            "name": "Hill's (Вет. Диета)",
+            "frontend_name": "Консервы для кошек Hill's (Вет. Диета)"
+        },
+        "232": {
+            "id": 980,
+            "parent_id": 730,
+            "name": "PreVital",
+            "frontend_name": "PreVital консервы для кошек"
+        },
+        "233": {
+            "id": 981,
+            "parent_id": 731,
+            "name": "Iams (Ямс)",
+            "frontend_name": "Сухой корм для кошек Iams (Ямс), Нидерданды"
+        },
+        "234": {
+            "id": 982,
+            "parent_id": 730,
+            "name": "Iams (Ямс)",
+            "frontend_name": "Консервы для кошек Iams (Ямс), Нидерданды"
+        },
+        "235": {
+            "id": 983,
+            "parent_id": 731,
+            "name": "Leonardo (Леонардо)",
+            "frontend_name": "Сухой корм для кошек Leonardo (Леонардо)"
+        },
+        "236": {
+            "id": 984,
+            "parent_id": 730,
+            "name": "Leonardo (Леонардо)",
+            "frontend_name": "Консервы для кошек Leonardo (Леонардо)"
+        },
+        "237": {
+            "id": 985,
+            "parent_id": 731,
+            "name": "NOW Natural holistic",
+            "frontend_name": "Сухой корм для кошек NOW Natural holistic (Канада)"
+        },
+        "238": {
+            "id": 987,
+            "parent_id": 732,
+            "name": "Applaws",
+            "frontend_name": "Лакомства для кошек Applaws"
+        },
+        "239": {
+            "id": 991,
+            "parent_id": 731,
+            "name": "Nutram",
+            "frontend_name": "Сухой корм для кошек Nutram"
+        },
+        "240": {
+            "id": 992,
+            "parent_id": 730,
+            "name": "Nutram",
+            "frontend_name": "Консервы для кошек Nutram"
+        },
+        "241": {
+            "id": 993,
+            "parent_id": 717,
+            "name": "Dr.Clauder's (Диета)",
+            "frontend_name": "Сухой корм для собак Dr. Clauder's (Вет. Диета)"
+        },
+        "242": {
+            "id": 994,
+            "parent_id": 716,
+            "name": "Dr.Clauder's (Диета)",
+            "frontend_name": "Консервы для собак Dr. Clauder's"
+        },
+        "243": {
+            "id": 995,
+            "parent_id": 731,
+            "name": "Dr.Clauder's (Диета)",
+            "frontend_name": "Сухой корм для кошек Dr. Clauder's"
+        },
+        "244": {
+            "id": 996,
+            "parent_id": 730,
+            "name": "Dr.Clauder's (Диета)",
+            "frontend_name": "Консервы для кошек Dr. Clauder's"
+        },
+        "245": {
+            "id": 997,
+            "parent_id": 730,
+            "name": "Evanger’s",
+            "frontend_name": "Консервы для кошек Evanger's"
+        },
+        "246": {
+            "id": 998,
+            "parent_id": 731,
+            "name": "Sanabelle",
+            "frontend_name": "Сухой корм для кошек Sanabelle"
+        },
+        "247": {
+            "id": 999,
+            "parent_id": 732,
+            "name": "Sanabelle",
+            "frontend_name": "Лакомство для кошек Sanabelle"
+        },
+        "248": {
+            "id": 1000,
+            "parent_id": 716,
+            "name": "Schesir",
+            "frontend_name": "Консервы для собак Schesir"
+        },
+        "249": {
+            "id": 1001,
+            "parent_id": 730,
+            "name": "Schesir",
+            "frontend_name": "Консервы для кошек Schesir"
+        },
+        "250": {
+            "id": 1002,
+            "parent_id": 738,
+            "name": "Vitakraft",
+            "frontend_name": "Корм для грызунов Vitakraft"
+        },
+        "251": {
+            "id": 1003,
+            "parent_id": 739,
+            "name": "Vitakraft",
+            "frontend_name": "Лакомства для грызунов Vitakraft"
+        },
+        "252": {
+            "id": 1004,
+            "parent_id": 744,
+            "name": "Vitakraft",
+            "frontend_name": "Корм для попугаем и канареек Vitakraft"
+        },
+        "253": {
+            "id": 1016,
+            "parent_id": 716,
+            "name": "Оскар",
+            "frontend_name": "Консервы для собак Оскар"
+        },
+        "254": {
+            "id": 1005,
+            "parent_id": 714,
+            "name": "Wanpy",
+            "frontend_name": "Лакомства для собак Wanpy"
+        },
+        "255": {
+            "id": 1006,
+            "parent_id": 732,
+            "name": "Wanpy",
+            "frontend_name": "Лакомства для кошек Wanpy"
+        },
+        "256": {
+            "id": 1007,
+            "parent_id": 738,
+            "name": "Вака",
+            "frontend_name": "Корм для грызунов Вака"
+        },
+        "257": {
+            "id": 1008,
+            "parent_id": 744,
+            "name": "Вака",
+            "frontend_name": "Корм для попугаем и канареек Вака"
+        },
+        "258": {
+            "id": 1009,
+            "parent_id": 714,
+            "name": "Деревенские Лакомства",
+            "frontend_name": "Лакомства для собак Деревенские лакомства"
+        },
+        "259": {
+            "id": 1010,
+            "parent_id": 732,
+            "name": "Деревенские Лакомства",
+            "frontend_name": "Лакомства для кошек Деревенские Лакомства"
+        },
+        "260": {
+            "id": 1011,
+            "parent_id": 716,
+            "name": "ЕМ БЕЗ ПРОБЛЕМ",
+            "frontend_name": "Консервы для собак Ем без проблем"
+        },
+        "261": {
+            "id": 1012,
+            "parent_id": 730,
+            "name": "ЕМ БЕЗ ПРОБЛЕМ",
+            "frontend_name": "Консервы для кошек ЕМ БЕЗ ПРОБЛЕМ"
+        },
+        "262": {
+            "id": 1013,
+            "parent_id": 716,
+            "name": "НАТУРАЛЬНАЯ ФОРМУЛА",
+            "frontend_name": "Консервы для собак НАТУРАЛЬНАЯ ФОРМУЛА"
+        },
+        "263": {
+            "id": 1014,
+            "parent_id": 730,
+            "name": "НАТУРАЛЬНАЯ ФОРМУЛА",
+            "frontend_name": "Консервы для кошек НАТУРАЛЬНАЯ ФОРМУЛА"
+        },
+        "264": {
+            "id": 1017,
+            "parent_id": 730,
+            "name": "Оскар",
+            "frontend_name": "Консервы для кошек Оскар"
+        },
+        "265": {
+            "id": 1018,
+            "parent_id": 716,
+            "name": "Трапеза",
+            "frontend_name": "Консервы для собак Трапеза"
+        },
+        "266": {
+            "id": 1019,
+            "parent_id": 717,
+            "name": "Фаворит",
+            "frontend_name": "Сухой корм для собак Фаворит"
+        },
+        "267": {
+            "id": 1020,
+            "parent_id": 731,
+            "name": "Фаворит",
+            "frontend_name": "Сухой корм для кошек Фаворит"
+        },
+        "268": {
+            "id": 1021,
+            "parent_id": 705,
+            "name": "FatCat ",
+            "frontend_name": "Игрушки для собак FatCat "
+        },
+        "269": {
+            "id": 1022,
+            "parent_id": 728,
+            "name": "FatCat ",
+            "frontend_name": "Игрушки для кошек FatCat "
+        },
+        "270": {
+            "id": 1023,
+            "parent_id": 821,
+            "name": "Fauna Internetional",
+            "frontend_name": "Лежаки для кошек Fauna Internetional"
+        },
+        "271": {
+            "id": 1024,
+            "parent_id": 823,
+            "name": "Fauna Internetional",
+            "frontend_name": "Когтеточки для кошек Fauna Internetional"
+        },
+        "272": {
+            "id": 1025,
+            "parent_id": 822,
+            "name": "Fauna Internetional",
+            "frontend_name": "Домики для кошек Fauna Internetional"
+        },
+        "273": {
+            "id": 1026,
+            "parent_id": 738,
+            "name": "Fiory",
+            "frontend_name": "Корм для грызунов Fiory"
+        },
+        "274": {
+            "id": 1027,
+            "parent_id": 521,
+            "name": "Fiory",
+            "frontend_name": "Сено для грызунов Fiory"
+        },
+        "275": {
+            "id": 1028,
+            "parent_id": 713,
+            "name": "FURminator",
+            "frontend_name": "Косметика для собак FURminator"
+        },
+        "276": {
+            "id": 1029,
+            "parent_id": 766,
+            "name": "FURminator",
+            "frontend_name": "Тримминг собак FURminator"
+        },
+        "277": {
+            "id": 1030,
+            "parent_id": 819,
+            "name": "FURminator",
+            "frontend_name": "Косметика для кошек FURminator"
+        },
+        "278": {
+            "id": 1031,
+            "parent_id": 820,
+            "name": "FURminator",
+            "frontend_name": "Тримминг кошек FURminator"
+        },
+        "279": {
+            "id": 1032,
+            "parent_id": 708,
+            "name": "Gimpet",
+            "frontend_name": "Витамины для собак Gimpet"
+        },
+        "280": {
+            "id": 1033,
+            "parent_id": 722,
+            "name": "Gimpet",
+            "frontend_name": "Витамины и подкормки для кошек Gimpet"
+        },
+        "281": {
+            "id": 1034,
+            "parent_id": 732,
+            "name": "Gimpet",
+            "frontend_name": "Лакомства для кошек Gimpet"
+        },
+        "282": {
+            "id": 1035,
+            "parent_id": 705,
+            "name": "Gigwi",
+            "frontend_name": "Игрушки для собак Gigwi"
+        },
+        "283": {
+            "id": 1036,
+            "parent_id": 728,
+            "name": "Gigwi",
+            "frontend_name": "Игрушки для кошек Gigwi"
+        },
+        "284": {
+            "id": 1037,
+            "parent_id": 713,
+            "name": "Hartz",
+            "frontend_name": "Косметика для собак Hartz"
+        },
+        "285": {
+            "id": 1038,
+            "parent_id": 722,
+            "name": "Viyo",
+            "frontend_name": "Витамины и подкормки для кошек Viyo"
+        },
+        "286": {
+            "id": 1039,
+            "parent_id": 715,
+            "name": "Hartz",
+            "frontend_name": "Пеленки и подгузники для собак Hartz"
+        },
+        "287": {
+            "id": 1040,
+            "parent_id": 819,
+            "name": "Hartz",
+            "frontend_name": "Косметика для кошек Hartz"
+        },
+        "288": {
+            "id": 1041,
+            "parent_id": 708,
+            "name": "Viyo",
+            "frontend_name": "Витамины и подкормки для собак Viyo"
+        },
+        "289": {
+            "id": 1042,
+            "parent_id": 708,
+            "name": "Viyo",
+            "frontend_name": ""
+        },
+        "290": {
+            "id": 1043,
+            "parent_id": 731,
+            "name": "Pro Pac",
+            "frontend_name": "Сухой корм для кошек Pro Pac"
+        },
+        "291": {
+            "id": 1044,
+            "parent_id": 731,
+            "name": "Pro Plan",
+            "frontend_name": "Сухой корм для кошек Pro Plan (Франция)"
+        },
+        "292": {
+            "id": 1045,
+            "parent_id": 730,
+            "name": "Pro Plan",
+            "frontend_name": "Консервы для кошек Pro Plan (Франция), Про План"
+        },
+        "293": {
+            "id": 1046,
+            "parent_id": 716,
+            "name": "Pro Plan (Вет. Диета)",
+            "frontend_name": "Консервы для собак Pro Plan (Вет. Диета)"
+        },
+        "294": {
+            "id": 1047,
+            "parent_id": 731,
+            "name": "Pro Plan (Вет. Диета)",
+            "frontend_name": "Сухой корм для кошек Pro Plan (Вет. Диета)"
+        },
+        "295": {
+            "id": 1048,
+            "parent_id": 730,
+            "name": "Pro Plan (Вет. Диета)",
+            "frontend_name": "Консервы для кошек Pro Plan (Вет. Диета)"
+        },
+        "296": {
+            "id": 1049,
+            "parent_id": 722,
+            "name": "Pro Plan (Вет. Диета)",
+            "frontend_name": "Витамины и подкормки для кошек Pro Plan (Вет. Диета)"
+        },
+        "297": {
+            "id": 1050,
+            "parent_id": 708,
+            "name": "Pro Plan (Вет. Диета)",
+            "frontend_name": "Витамины и подкормки для собак Pro Plan (Вет. Диета)"
+        },
+        "298": {
+            "id": 1051,
+            "parent_id": 731,
+            "name": "Proseries",
+            "frontend_name": "Сухой корм для кошек Proseries"
+        },
+        "299": {
+            "id": 1052,
+            "parent_id": 731,
+            "name": "ROYAL CANIN",
+            "frontend_name": "Сухой корм для кошек ROYAL CANIN (Франция)"
+        },
+        "300": {
+            "id": 1053,
+            "parent_id": 730,
+            "name": "ROYAL CANIN",
+            "frontend_name": "Консервы для кошек ROYAL CANIN (Франция)"
+        },
+        "301": {
+            "id": 1054,
+            "parent_id": 716,
+            "name": "Royal Canin (Вет. диета)",
+            "frontend_name": "Консервы для собак Royal Canin (Вет. диета)"
+        },
+        "302": {
+            "id": 1055,
+            "parent_id": 731,
+            "name": "Royal Canin (Вет. диета)",
+            "frontend_name": "Сухой корм для кошек Royal Canin (Вет. диета)"
+        },
+        "303": {
+            "id": 1056,
+            "parent_id": 730,
+            "name": "Royal Canin (Вет. диета)",
+            "frontend_name": "Консервы для кошек Royal Canin (Вет. диета)"
+        },
+        "304": {
+            "id": 1057,
+            "parent_id": 717,
+            "name": "Pronature Holistic",
+            "frontend_name": "Сухой корм для собак Pronature Holistic"
+        },
+        "305": {
+            "id": 1058,
+            "parent_id": 731,
+            "name": "Pronature Holistic",
+            "frontend_name": "Сухой корм для кошек Pronature Holistic"
+        }
+    }
+}

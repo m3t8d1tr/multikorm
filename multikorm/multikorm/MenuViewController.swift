@@ -17,34 +17,31 @@ protocol MenuViewControllerDelegate {
 class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     
-    var fruits = ["Apple", "Apricot", "Banana", "Blueberry", "Cantaloupe", "Cherry",
-                  "Clementine", "Coconut", "Cranberry", "Fig", "Grape", "Grapefruit",
-                  "Kiwi fruit", "Lemon", "Lime", "Lychee", "Mandarine", "Mango",
-                  "Melon", "Nectarine", "Olive", "Orange", "Papaya", "Peach",
-                  "Pear", "Pineapple", "Raspberry", "Strawberry"]
+    //сюда кладём получаемую структуру с данными
+    var menuCatalog : ViewController.Catalog?
+    
+    
+    //список пунктов меню
+    var menuList = ["Category", "News", "Special", "Cabinet", "Shipping", "Payment"]
     
     //приминение протокола
     var delegate: MenuViewControllerDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-
-        // Do any additional setup after loading the view.
+        navigationController?.isNavigationBarHidden = true
     }
 // для таблицы две обязательные функции
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return fruits.count
+        return menuList.count
     }
     //создаём ячейки
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
-   
-        
-        cell.textLabel?.text = fruits[indexPath.row]
+        let cell = tableView.dequeueReusableCell(withIdentifier: menuList[indexPath.row], for: indexPath)
+        //cell.textLabel?.text = menuList[indexPath.row]
         return cell
     }
     
@@ -58,6 +55,23 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
     delegate?.menuCloseButtonTapped()
     }
 
+    // передаём данные в следующий контроллер
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        
+        
+        if segue.identifier == "Category" {
+            //что передаём?
+            //передаём целую структуру с данными JSON
+            if let destinationVC : CategoryTableViewController = segue.destination as? CategoryTableViewController {
+                destinationVC.category = menuCatalog
+            }
+        }
+        
+        
+    }
+    
+    
 }
 
 
