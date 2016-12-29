@@ -7,59 +7,16 @@
 //
 
 import UIKit
+import Alamofire
 import SwiftyJSON
-//расширение для превращения массива в словарь
-extension Array  {
-    var indexedDictionary: [Int: Element] {
-        var result: [Int: Element] = [:]
-        enumerated().forEach({ result[$0.offset] = $0.element })
-        return result
-    }
-}
 
 class ViewController: UIViewController,  MenuViewControllerDelegate {
     
     @IBOutlet weak var slideImageView: UIImageView!
     
-    //структура для хранения и обработки всех раcпарсенных данных из JSON
-    struct Catalog {
-        var rootCategory: String = "Category"
-        var name: [String] = []
-        var id : [Int] = []
-        var parent_id: [Int] = []
-        var frontend_name: [String] = []
-        var numberOfCategory: Int = 0
-        var numberOfRootCategory: Int = 0
-        var idDict: [Int : Int] = [:]
-        var NameDict: [Int : String] = [:]
-        var parentIdDict: [Int : Int] = [:]
-        }
-    
-    public var catalog = Catalog()
-    func getJSONData() -> (numberOfCategory : Int, numberOfRootCategory : Int) {
-        
-        let path: String = Bundle.main.path(forResource: "categoryJSON", ofType: "json") as String!
-        let jsonData = (try? Data(contentsOf: URL(fileURLWithPath: path))) as Data!
-        let readableJSON = JSON(data: jsonData!, options: .mutableContainers, error: nil)
-        let numberOfCategory = readableJSON[catalog.rootCategory].count
-        
-        for i in 0..<numberOfCategory {
-            catalog.id.append(readableJSON[catalog.rootCategory]["\(i)"]["id"].int!)
-            catalog.name.append(readableJSON[catalog.rootCategory]["\(i)"]["name"].string!)
-            catalog.parent_id.append(readableJSON[catalog.rootCategory]["\(i)"]["parent_id"].int!)
-            if catalog.parent_id[i] == 0 //считаем сколько корневых категорий
-            {
-                catalog.numberOfRootCategory += 1
-            }
-        }
-        // превращаем массив в словарь с ключами
-        catalog.idDict = catalog.id.indexedDictionary
-        catalog.NameDict = catalog.name.indexedDictionary
-        catalog.parentIdDict = catalog.parent_id.indexedDictionary
-        return (numberOfCategory, catalog.numberOfRootCategory) //возвращаем кол-во категорий
-    }
-    
-    
+   
+    // объект хранения категорий
+    var categories: [Category] = []
     
     //область для затемнения второй части экрана при активации меню
     var blackMaskView = UIView(frame: CGRect.zero)
@@ -75,11 +32,9 @@ class ViewController: UIViewController,  MenuViewControllerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // загружаем данные с сервера
+        loadCategories()
         
-        // получаем кол-во категорий и выполняем функцию
-        let www = getJSONData()
-        catalog.numberOfCategory = www.numberOfCategory
-        catalog.numberOfRootCategory = www.numberOfRootCategory
         //скрываем навигационное меню
         navigationController?.isNavigationBarHidden = true
         
@@ -111,7 +66,6 @@ class ViewController: UIViewController,  MenuViewControllerDelegate {
         view.addConstraints([topContraint, menuLeftconstraint!, bottomContraint, widthConstraint])
         
         //toogleMenu()
-        
     
     }
     //переключатель показа меню
@@ -154,8 +108,7 @@ class ViewController: UIViewController,  MenuViewControllerDelegate {
             UIView.animate(withDuration: 0.5, delay: 0.0, usingSpringWithDamping: 0.9, initialSpringVelocity: 0.5, options: UIViewAnimationOptions.curveEaseInOut, animations: { () -> Void in self.view.layoutIfNeeded()}, completion: {(completed) -> Void in self.menuViewController.view.isHidden = false})
             
         }
-        // сохраняем массив со всеми данными в переменной контроллера категорий (он выезжает)
-        menuViewController.menuCatalog = catalog
+       
     }
     
     func tapGestureRecognized() {
@@ -173,12 +126,46 @@ class ViewController: UIViewController,  MenuViewControllerDelegate {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         // !указываем на какой контроллер переходим!
-        var DestViewController : MenuViewController = segue.destination as! MenuViewController
+        var DestViewController : CategoryTableViewController = segue.destination as! CategoryTableViewController
         // получаем индекс выбранного элемента
         //что передаём?
         //передаём целую структуру с данными
-        //DestViewController.menuCatalog = catalog
+        DestViewController.categories = self.categories
+        
     }
+    
+    
+    // функция для получения json
+    func loadCategories() {
+        
+        let url = "https://multikorm.ru/json/category.json"
+        
+        Alamofire.request(url).responseJSON { (response) in // параметр безымянная функция - лямьда
+            
+            if let obj = response.result.value {
+                let json = JSON(obj)
+                var results: [Category] = []
+                let categories = json["Category"].arrayValue
+                for item in categories {
+                    let name = item["name"].string!
+                    let parent_id = item["parent_id"].int16!
+                    let id = item["id"].int16!
+                    
+                    let category = Category(id: id, name: name, parent_id: parent_id)
+                    results.append(category)
+                }
+                //results.sort(by: { (venue1, venue2) -> Bool in
+                //   return venue1.distance! < venue2.distance!
+                //})
+                self.categories = results
+                //self.tableView.reloadData()
+                
+            }
+            
+        } // получаем файл
+    
+    }
+    
     
 }
 

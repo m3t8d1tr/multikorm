@@ -16,9 +16,7 @@ protocol MenuViewControllerDelegate {
 //для таблицы добавили классы UITableViewDataSource, UITableViewDelegate
 class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
-    
     //сюда кладём получаемую структуру с данными
-    var menuCatalog : ViewController.Catalog?
     
     
     //список пунктов меню
@@ -45,7 +43,6 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
         return cell
     }
     
-    
     //Добавляем заголовок секции
    // func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
    //     return "Категория \(section)" }
@@ -57,21 +54,16 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
 
     // передаём данные в следующий контроллер
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
-        
-        
         if segue.identifier == "Category" {
             //что передаём?
             //передаём целую структуру с данными JSON
             if let destinationVC : CategoryTableViewController = segue.destination as? CategoryTableViewController {
-                destinationVC.category = menuCatalog
+                destinationVC.categories = 
+                //print(categories.count)
+                
             }
         }
-        
-        
     }
-    
-    
 }
 
 

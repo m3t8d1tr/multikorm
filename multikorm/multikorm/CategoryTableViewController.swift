@@ -11,19 +11,13 @@ import UIKit
 class CategoryTableViewController: UITableViewController {
 
     //сюда кладём получаемую структуру с данными
-    var category : ViewController.Catalog?
-    
+    var categories : [Category?] = []
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationController?.isNavigationBarHidden = false
-                 //отбираем корневые категории
-        for parent_id in (category?.parentIdDict)! {
-            if parent_id.value == 0 {
-                print(category?.NameDict[parent_id.key])
-            } else {
-                print("ничего")}
-        }
+        //print(categories.count)
     }
 
     override func didReceiveMemoryWarning() {
@@ -35,15 +29,29 @@ class CategoryTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return categories.count
     }
 
-    
+    //нужно создать и настроить ячейку для строки под номером indexPath.row
+    //в секции indexPath.section
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        //таблица из сториборда достанет ячейку по шаблону с идентификатором
+        //CategoryCell. Изначально это будет UITableViewCell и мы преобразуем его
+        //в наш собственный класс CategoryCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as! CategoryCell
+        
+        //настраиваем внешний вид ячейки
+        let category = categories[indexPath.row]
+        cell.textLabel?.text = category?.name
+        return cell
+    }
+
     
 // после возврата на предыдущий контроллер там выполнить код
     // метод вызыввется перед удалением вида из иерархии вью.
